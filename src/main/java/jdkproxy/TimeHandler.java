@@ -18,7 +18,7 @@ public class TimeHandler implements InvocationHandler {
 
     /**
      * 对时间处理的方法
-     * @param proxy 被代理的对象
+     * @param proxy 代理对象,是动态生成的，不是被代理对象
      * @param method 被代理对象的方法
      * @param args 方法的参数
      * @return 被代理对象方法的返回值
