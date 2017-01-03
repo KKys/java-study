@@ -7,6 +7,8 @@
         <property name="age" value="24"/>
     </bean>
 
+
+    <!--aop使用场景：性能监测，访问控制，事务管理、缓存、对象池管理以及日志记录 -->
     <!--配置aop中切面类和实现类-->
     <bean id="aspect" class="spring.aop.Aspect"></bean>
     <bean id="aspectImpl" class="spring.aop.AspectImpl"></bean>
